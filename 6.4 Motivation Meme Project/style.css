@@ -1,0 +1,36 @@
+.first {
+width: 45%;
+margin-left: 27.5%;
+margin-top: 80px;
+text-align: center;
+}
+.first h1 {
+    color: aliceblue;
+   
+    text-transform: uppercase;
+      font-size: 25px;
+      transition: 0.4s;
+    }
+    .first p {
+        color: aliceblue;
+        transition: 0.4s;
+    }
+
+    body{
+        background-color: black;
+    }
+    .warrior{
+        border: 5px solid whitesmoke;
+        width: 100%;
+        transition: 0.4s;
+    }
+    .warrior:hover{
+        transform: scale(1.3);
+    }
+    .first h1:hover{
+        transform: scale(1.3);
+    }
+    .first p:hover{
+        transform: scale(1.3);
+    }
+   
